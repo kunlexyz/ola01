@@ -1,0 +1,43 @@
+<?xml version="1.0.1" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.kunleart.blogspot.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <name>The Proud Child of an Hunter</name>
+
+  <description>
+      A Story Book in App
+  </description>
+
+  <author href="https://kunleart.blogspot.com" email="bobbykay007@gmail.com">
+      kunle odunuga
+  </author>
+
+<content src="index.html" />
+<access origin="*" />
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+
+<preference name = "permissions" value = "none"/>
+   
+
+<icon src = "res/icon/android/mipmap-ldpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "ldpi" />
+		
+   <icon src = "res/icon/android/mipmap-mdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "mdpi" />
+		
+   <icon src = "res/icon/android/mipmap-hdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "hdpi" />
+		
+   <icon src = "res/icon/android/mipmap-xhdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "xhdpi" />
+		
+   <icon src = "res/icon/android/mipmap-xxhdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "xxhdpi" />
+		
+ 
+
+</widget>

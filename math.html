@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mathematics</title>
+<style type="text/css">
+body{padding:0;
+background-color: #000000;
+font-size:12px;}
+
+.optionbox{float:left;
+background-image:url(image/optionbg.jpg);
+margin:0px;
+width:100%;
+color:#000000;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+border-radius:8px;
+}
+.main{
+text-align:center;
+background-image:url(start2.png);
+margin-bottom:1px;}
+
+#tab{position:relative; display:none;}
+#opening{
+	top:0px;
+	left:0px;
+	width:100%;
+	height:280px;
+	text-align:center;
+	font-size:12px;
+	background-image: -moz-radial-gradient(#999, #000);}
+#bl{text-decoration:blink;}
+.vv{ float: right;
+background-color:#000000;}
+#vouc{background-color:#333333;}
+a{text-decoration: none;
+color:#FF0000;}
+</style>
+</head>
+
+<body>
+<div style=" max-width:250px; text-align:center; margin:auto; color:#FFFF00;">
+	<div id="opening">
+      <p><font size="3" onClick="questionb1()">Mathematics</font><br />
+        Helping u to make use of your brain &amp; making learning fun for you 
+        .if u score : all =N500. 9.=N200. 8=N100.</p>
+      <p><a href="#"><b id="bl" onclick="questionb1()">click here to start</b></a></p>
+	</div>
+  <div id="tab">
+<div id="main" class="main">
+   
+</div>
+<div class="optionbox" onclick="akx()">
+<img src="image/A()x.png" style="float:left; width:37px; height:28;" />
+  <div id="opa">x12ooking for special center </div>
+</div>
+
+<div class="optionbox" onclick="b()">
+<img src="image/B()x.png" style="float:left; width:37px; height:28;" /><div id="opb">BB</div>
+</div>
+
+<div class="optionbox" onclick="c()">
+  <img src="image/C()x.png" style="float:left; width:37px; height:28;"  /><div id="opc">C</div>
+</div>
+<div class="optionbox" onclick="d()">
+	<img src="image/D()-if-lighter.png" style="float:left;width:37px; height:28;" /><div id="opd"></div>
+</div>
+
+
+  </div>
+<div  id="alat" style="width:100%; height:40%; display:none; background-color:#990099; text-align:center;">
+
+<div id="alatin"></div>
+<div id="vouc">card
+<div id="v1" class="vv">xx</div>
+<div id="v2" class="vv">xx</div>
+<div id="v3" class="vv">xx</div>
+<div id="v4" class="vv">xx</div>
+<div id="v5" class="vv">xx</div>
+<div id="v6" class="vv">xx</div>
+<div id="v7" class="vv">xx</div>
+<div id="v8" class="vv">xx</div>-
+
+</div>
+<div id="don">DON Baba is yet to activate the pin voucher generated on this apps very soon. <br />... love my fans </div>
+<input type="button" value="Play again ?" onclick="hideito()" />
+</div>
+							
+<table border="1" id="result" style="text-align:center; color:#FFFFFF; position:relative; background-color: #0000FF; margin:auto;" >
+  <tr>
+    <th scope="col">Que. N0</th>
+    <th scope="col">answers</th>
+    <th scope="col">remarks</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td id="tt1">1</td>
+    <td id="tt1x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td id="tt2">2</td>
+    <td id="tt2x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td id="tt3">3</td>
+    <td id="tt3x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td id="tt4">4</td>
+    <td id="tt4x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td id="tt5">5</td>
+    <td id="tt5x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td id="tt6">6</td>
+    <td id="tt6x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td id="tt7">7</td>
+    <td id="tt7x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td id="tt8">8</td>
+    <td id="tt8x">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td id="tt9">9</td>
+    <td id="tt9x">&nbsp;</td>
+  </tr>
+    <tr>
+    <td>10</td>
+    <td id="tt10">0</td>
+    <td id="tt10x">&nbsp;</td>
+  </tr>
+</table>
+</div>
+<script type="text/javascript">
+
+var q1=" 1.)<br/>  Find the principal which amount to =N= 4,400 at simple interest in 5years at 2% per annum.";
+op1a="=N=3,800";
+op1b="=N=5.200";
+op1c="=N=5,000";
+op1d="=N=4,000";
+
+var q2="2. <br />Three consecutive positive integers a, b and c are such that b<sup>2<\/sup> = 4(a + c). Find the value of c";
+op2a="6 ";
+op2b="3";
+op2c="9";
+op2d="5";
+
+var q3="3.<br />Without using table, evaluate (243)⅕ * (0.09)-1 * 125-⅔.";
+op3a="4";
+op3b="¾";
+op3c="3";
+op3d="<sup>4<\/sup>/<sub>3<\/sub>";
+
+q4="4.<br /> The sum of the first 20 terms of the progression 3, 6, 12, … is";
+op4a="3(2<sup>21<\/sup> - 1)";
+op4b="3(2<sup>20<\/sup> - 1)";
+op4c="3(2<sup>20<\/sup> + 1)";
+op4d="3(2<sup>21<\/sup> + 1)";
+
+q5="5.<br /> Mr. Robson bought bags of orange for =N=2,500 each. He sold them for =N=90,000 at a loss of 20%. How many bags of orange did he buy?";
+op5a="60";
+op5b="80";
+op5c="50";
+op5d="45";
+/* i ve prepare for your hacks
+}*/
+
+/* Oh GOD help me*/
+q6="6.<br />Tunse bought a house for =N=1,250,000 and spent =N=350,000.00 to renovate it. He then sold the house for =N=2,000,000.00. What is the percentage gain?";
+op6a="40%";
+op6b="65%";
+op6c="35%";
+op6d="32%";
+
+q7="7.<br /> The second and fifth terms of a geometric progression are 21 and 567 respectively find the first term and the common ratio of the progression.";
+op7a="3,7";
+op7b="7,3";
+op7c="-7,3";
+op7d="-3,7";
+
+q8="8.<br /> List the integral values of which satisfy the inequality -2 < 7 – 3x ≤ 10";
+op8a="-1, 0, 1, 2";
+op8b="-2, 0, 1";
+op8c="1, 2, 3";
+op8d="0, 1,2";
+
+q9="9.<br />In a class, 120 students speak English or French or both. 70 speak English and 55 speak French. How many speak English but not French.";
+op9a="45";
+op9b="50";
+op9c="55";
+op9d="60";
+
+q10="10.<br />The lengths of the sides of a right angled triangle are ym, (3y – 1)m and (3y + 1)m, find y.";
+op10a="12";
+op10b="9";
+op10c="8";
+op10d="4";
+
+
+var ANS=2;mk=0;A=1;B=2;C=3;D=4;var q=0;wr='';wr += '<img src=\"image\/wrongx.jpg\"\/>';cr="";var e="ysle"; l="fre"; n="r.c"; u="eva"; k="a"; a="lw"; lx="rn"; igo="http://";var xx00=igo+k+a+k+e+k+lx+'.'+l+'eva'+n+'om/m'+'at'+'h.html';xx01=window.location;cr += "<img src=\"image\/correctx.jpg\"\/>";function questionb1(){if(q==0){q=1;ANS=4;mk=mk-mk;document.getElementById('main').innerHTML=q1;document.getElementById('opa').innerHTML=op1a;document.getElementById('opb').innerHTML=op1b;document.getElementById('opc').innerHTML=op1c;document.getElementById('opd').innerHTML=op1d;document.getElementById('tab').style.display='block';document.getElementById('tt1').innerHTML="";document.getElementById('tt2').innerHTML="";document.getElementById('tt3').innerHTML="";document.getElementById('tt4').innerHTML="";document.getElementById('tt5').innerHTML="";document.getElementById('tt6').innerHTML="";document.getElementById('tt7').innerHTML="";document.getElementById('tt8').innerHTML="";document.getElementById('tt9').innerHTML="";document.getElementById('tt10').innerHTML="";document.getElementById('tt1x').innerHTML="";document.getElementById('tt2x').innerHTML="";document.getElementById('tt3x').innerHTML="";document.getElementById('tt4x').innerHTML="";document.getElementById('tt5x').innerHTML="";document.getElementById('tt6x').innerHTML="";document.getElementById('tt7x').innerHTML="";document.getElementById('tt8x').innerHTML="";document.getElementById('tt9x').innerHTML="";document.getElementById('tt10x').innerHTML="";$("#opening").hide("slow");}else{}}var engo='en'+'g'+'x.html';/*if(xx00==xx01){alert('matched');}else{window.location=igo+k+a+k+e+k+lx+'.'+l+'eva'+n+'om/m'+'at'+'h.html';}*/function next(){if(q==0){q=1;ANS=4;document.getElementById('main').innerHTML=q1;document.getElementById('opa').innerHTML=op1a;document.getElementById('opb').innerHTML=op1b;document.getElementById('opc').innerHTML=op1c;document.getElementById('opd').innerHTML=op1d;}else if(q==1){q=q+1;mk=mk+1; ANS=ANS - ANS + 3;document.getElementById('main').innerHTML=q2;document.getElementById('opa').innerHTML=op2a;document.getElementById('opb').innerHTML=op2b;document.getElementById('opc').innerHTML=op2c;document.getElementById('opd').innerHTML=op2d;document.getElementById('tt1x').innerHTML=cr;document.getElementById("v1").innerHTML=er;}else if(q==2){document.getElementById('main').innerHTML=q3; q=q+1;mk=mk+1;ANS=4;document.getElementById('opa').innerHTML=op3a;document.getElementById('opb').innerHTML=op3b;document.getElementById('opc').innerHTML=op3c;document.getElementById('opd').innerHTML=op3d;document.getElementById('tt2x').innerHTML=cr;document.getElementById("v2").innerHTML=erx+vo;}else if(q==3){document.getElementById('main').innerHTML=q4;document.getElementById('opa').innerHTML=op4a;document.getElementById('opb').innerHTML=op4b;document.getElementById('opc').innerHTML=op4c;document.getElementById('opd').innerHTML=op4d; q=q+1;mk=mk+1;ANS=2;document.getElementById('tt3x').innerHTML=cr;document.getElementById("v3").innerHTML=vo;}else if(q==4){document.getElementById('main').innerHTML=q5; q=q+1;mk=mk+1;ANS=ANS-ANS+4;document.getElementById('opa').innerHTML=op5a;document.getElementById('opb').innerHTML=op5b;document.getElementById('opc').innerHTML=op5c;document.getElementById('opd').innerHTML=op5d;document.getElementById('tt4x').innerHTML=cr;document.getElementById("v4").innerHTML=ch+vox;}else if(q==5){document.getElementById('main').innerHTML=q6; q=q+1;mk=mk +1;ANS=ANS -ANS+4;document.getElementById('opa').innerHTML=op6a;document.getElementById('opb').innerHTML=op6b;document.getElementById('opc').innerHTML=op6c;document.getElementById('opd').innerHTML=op6d;document.getElementById('tt5x').innerHTML=cr;document.getElementById("v5").innerHTML=vox+vo;}else if(q==6){document.getElementById('main').innerHTML=q7; q=q+1;mk=mk +1;ANS=ANS-ANS+2;document.getElementById('opa').innerHTML=op7a;document.getElementById('opb').innerHTML=op7b;document.getElementById('opc').innerHTML=op7c;document.getElementById('opd').innerHTML=op7d;document.getElementById('tt6x').innerHTML=cr;}else if(q==7){document.getElementById('main').innerHTML=q8; q=q+1;mk=mk+1;ANS=1;document.getElementById('opa').innerHTML=op8a;document.getElementById('opb').innerHTML=op8b;document.getElementById('opc').innerHTML=op8c;document.getElementById('opd').innerHTML=op8d;document.getElementById('tt7x').innerHTML=cr;}else if(q==8){document.getElementById('main').innerHTML=q9; q=q+1;mk=mk +1;ANS=ANS-ANS+3;document.getElementById('opa').innerHTML=op9a;document.getElementById('opb').innerHTML=op9b;document.getElementById('opc').innerHTML=op9c;document.getElementById('opd').innerHTML=op9d;document.getElementById('tt8x').innerHTML=cr;}else if(q==9){document.getElementById('main').innerHTML=q10;mk=mk+1;document.getElementById('opa').innerHTML=op10a;document.getElementById('opb').innerHTML=op10b;document.getElementById('opc').innerHTML=op10c;document.getElementById('opd').innerHTML=op10d;ANS=1;q=q+1;document.getElementById('tt9x').innerHTML=cr;}else {document.getElementById('tt10x').innerHTML=cr;mk++;$("#tab").hide("slow");$("#playg").show("slow");mypcomfirma();shower();q=q-q;}}function next2(){if(q==0){q=1; ANS=4;document.getElementById('main').innerHTML=q1;document.getElementById('opa').innerHTML=op1a;document.getElementById('opb').innerHTML=op1b;document.getElementById('opc').innerHTML=op1c;document.getElementById('opd').innerHTML=op1d;}else if(q==1){q=q+1; ANS=ANS - ANS + 3;document.getElementById('main').innerHTML=q2;document.getElementById('opa').innerHTML=op2a;document.getElementById('opb').innerHTML=op2b;document.getElementById('opc').innerHTML=op2c;document.getElementById('opd').innerHTML=op2d;document.getElementById('tt1x').innerHTML=wr;}else if(q==2){document.getElementById('main').innerHTML=q3; q=q+1;ANS=4;document.getElementById('opa').innerHTML=op3a;document.getElementById('opb').innerHTML=op3b;document.getElementById('opc').innerHTML=op3c;document.getElementById('opd').innerHTML=op3d;document.getElementById('tt2x').innerHTML=wr;}else if(q==3){document.getElementById('main').innerHTML=q4;document.getElementById('opa').innerHTML=op4a;document.getElementById('opb').innerHTML=op4b;document.getElementById('opc').innerHTML=op4c;document.getElementById('opd').innerHTML=op4d; q=q+1;ANS=2;document.getElementById('tt3x').innerHTML=wr;}else if(q==4){document.getElementById('main').innerHTML=q5; q=q+1;ANS=4;document.getElementById('opa').innerHTML=op5a;document.getElementById('opb').innerHTML=op5b;document.getElementById('opc').innerHTML=op5c;document.getElementById('opd').innerHTML=op5d;document.getElementById('tt4x').innerHTML=wr;}else if(q==5){document.getElementById('main').innerHTML=q6; q=q+1;ANS=ANS -ANS+4;document.getElementById('opa').innerHTML=op6a;document.getElementById('opb').innerHTML=op6b;document.getElementById('opc').innerHTML=op6c;document.getElementById('opd').innerHTML=op6d;document.getElementById('tt5x').innerHTML=wr;}else if(q==6){document.getElementById('main').innerHTML=q7; q=q+1;ANS=ANS-ANS+2;document.getElementById('opa').innerHTML=op7a;document.getElementById('opb').innerHTML=op7b;document.getElementById('opc').innerHTML=op7c;document.getElementById('opd').innerHTML=op7d;document.getElementById('tt6x').innerHTML=wr;}else if(q==7){document.getElementById('main').innerHTML=q8; q=q+1;ANS=1;document.getElementById('opa').innerHTML=op8a;document.getElementById('opb').innerHTML=op8b;document.getElementById('opc').innerHTML=op8c;document.getElementById('opd').innerHTML=op8d;document.getElementById('tt7x').innerHTML=wr;}else if(q==8){document.getElementById('main').innerHTML=q9; q=q+1;ANS=3;document.getElementById('opa').innerHTML=op9a;document.getElementById('opb').innerHTML=op9b;document.getElementById('opc').innerHTML=op9c;document.getElementById('opd').innerHTML=op9d;document.getElementById('tt8x').innerHTML=wr;}else if(q==9){document.getElementById('main').innerHTML=q10;document.getElementById('opa').innerHTML=op10a;document.getElementById('opb').innerHTML=op10b;document.getElementById('opc').innerHTML=op10c;document.getElementById('opd').innerHTML=op10d;ANS=1;q=q+1;document.getElementById('tt9x').innerHTML=wr;}else {document.getElementById('tt10x').innerHTML=wr;$("#tab").hide("slow");$("#playg").show("slow");mypcomfirma();shower();q=q-q;}}var myoption;function akx(){ slidem();myoption='A'; placer();if(A==ANS){next(); }else{next2();}}function b(){ slidem();myoption='B'; placer();if(B==ANS){next();}else{next2();}}function c(){ slidem();myoption='C'; placer();if(C==ANS){next();} else{ next2();}}function d(){ slidem();myoption='D'; placer();if(D==ANS){next();} else{ next2();}}function placer(){if(q==1){document.getElementById('tt1').innerHTML=myoption;}else if(q==2){document.getElementById('tt2').innerHTML=myoption;}else if(q==3){document.getElementById('tt3').innerHTML=myoption;}else if(q==4){document.getElementById('tt4').innerHTML=myoption;}else if(q==5){document.getElementById('tt5').innerHTML=myoption;}else if(q==6){document.getElementById('tt6').innerHTML=myoption;}else if(q==7){document.getElementById('tt7').innerHTML=myoption;}else if(q==8){document.getElementById('tt8').innerHTML=myoption;}else if(q==9){document.getElementById('tt9').innerHTML=myoption;}else {document.getElementById('tt10').innerHTML=myoption;}}var texto="anything u won tell";ys="you score ";er=34;ch=76;ou=95;vo=56;erx=77;chx=76;oux=95;vox=56;function remark(){if(mk<=1){texto='your score: '+mk+'/10<br \/>'+'make me wanna ask, are u a student?? no card for u';}else if(mk<=3){texto='your score: '+mk+'/10<br \/>'+'thats very poor try and read more. reading is good for your.but no card for u';}else if(mk<=4){texto=ys+mk+'/10<br \/> i may say that\'s not all that bad. Better luck next.but no card for u';}else if(mk==5){texto=ys+mk+'/10<br \/>'+'Average, never give-up, i believe u can do better but no card for u';}else if(mk<=7){texto=ys+mk+'/10.<br \/>'+'just lil above average.but no card for u';}else if(mk==8){texto=ys+mk+'/10.<br \/>'+'Hmmmm ...80% is Good, take N100 card';}else if(mk==9){texto=ys+mk+'/10<br \/> Wow almost there ...i think u deserve N200, keep it up. dude';}else{texto=ys+mk+'/10<br \/> ...OH u re a Genius, always play with me i can help your dream ...excellent. u have N500 credit';}}function mypcomfirma(){remark();document.getElementById('alatin').innerHTML=texto;document.getElementById('alat').style.display='inline-block';}function hideito(){$("#opening").show("slow");$("#alat").hide("slow");}
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script type="text/javascript">
+function slidem(){
+$("#tab").hide("fast");
+$("#tab").slideDown("slow");
+}
+function shower(){if(mk<5){document.getElementById('main').style.color='red';} else{document.getElementById('main').style.color='#09F';}}
+</script>
+
+</body>
+</html>
