@@ -1,0 +1,31 @@
+.container{max-width:250px; text-align:center; margin:auto; color:#FFFF00;}
+
+.optionbox{float:left;
+background-image:url(image/optionbg.jpg);
+margin:0px;
+width:100%;
+color:#000000;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+border-radius:8px;
+}
+.main{
+text-align:center;
+font-size:22px;
+background-image:url(start2.png);
+margin-bottom:1px;}
+
+#tab{position:relative; display:none;}
+#opening{
+	top:0px;
+	left:0px;
+	width:100%;
+	height:280px;
+	text-align:center;
+	font-size:12px;
+	background-image: -moz-radial-gradient(#999, #000);}
+#bl{text-decoration:blink;}
+.vv{ float: right;
+background-color:#000000;}
+#vouc{background-color:#333333;}
+a{text-decoration: none;
+color:#FF0000;}
