@@ -21,7 +21,8 @@ body{
 .mCon3:hover{
 	background-color:#222;
 	color:#FFF;}
-.plain{color:#666;}
+.plain{color:#CCC;
+		padding:10px;}
 .menu_dash{
     padding: 2px;
     margin: 3px;
